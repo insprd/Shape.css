@@ -1,5 +1,5 @@
 # shape.css
-*grab-bag of CSS primitives, icons, and other shapes*
+*Grab-bag of CSS primitives, icons, and other shapes*
 
 `shape.css` is a library of insertable shapes for you to use in your projects. Great for icon alternatives, popups, badges, and so on.
 
@@ -22,3 +22,8 @@ Drop the stylesheet into your document's `<head>`, and add the corresponding sha
 Since browser support for CSS3 and prefixes are constantly changing, `shape.css` does not include them. You should implement [Autoprefixer](github.com/ai/autoprefixer) (recommended), or [-prefix-free](http://leaverou.github.io/prefixfree/).
 
 You can also parse the prefixes yourself if you want to support certain vintage browsers.
+
+# Shapes included:
+
+- Curved arrow
+- Star
