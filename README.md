@@ -4,7 +4,7 @@
 `shape.css` is a library of insertable shapes for you to use in your projects. Great for icon alternatives, popups, badges, and so on.
 
 # Usage
-Drop the stylesheet into your document's `<head>`, and add the corresponding shape class, and the class `shape` to any element in the <body>:
+Drop the stylesheet into your document's `<head>`, and add the corresponding shape class, and the class `shape` to any element in the `<body>`:
 
 ```html
 <head>
