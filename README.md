@@ -8,7 +8,7 @@ Drop the stylesheet into your document's `<head>`, and add the corresponding sha
 
 ```html
 <head>
-  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="shape.min.css">
 </head>
 ```
 
