@@ -21,7 +21,7 @@ Drop the stylesheet into your document's `<head>`, and add the corresponding sha
 
 Since browser support for CSS3 and prefixes are constantly changing, `shape.css` does not include them. You should implement [Autoprefixer](github.com/ai/autoprefixer) (recommended), or [-prefix-free](http://leaverou.github.io/prefixfree/).
 
-You can also parse the prefixes yourself if you want to support certain vintage browsers.
+You can also parse the prefixes yourself if you want to support certain vintage browsers. Check [Can I use](http://caniuse.com/) to see what you need. 
 
 # Shapes included:
 
