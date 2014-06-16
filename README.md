@@ -27,3 +27,4 @@ You can also parse the prefixes yourself if you want to support certain vintage 
 
 - Curved arrow
 - Star
+- Heart

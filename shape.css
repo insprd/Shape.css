@@ -10,7 +10,6 @@
   border-right: 9px solid red;
   transform: rotate(10deg);
 }
-
 .curved-arrow:after {
   content: "";
   position: absolute;
@@ -31,12 +30,11 @@
    color: red;
    width: 0px;
    height: 0px;
-   border-right:  100px solid transparent;
-   border-bottom: 70px  solid red;
-   border-left:   100px solid transparent;
-   transform:    rotate(35deg);
+   border-right: 100px solid transparent;
+   border-bottom: 70px solid red;
+   border-left: 100px solid transparent;
+   transform: rotate(35deg);
 }
-
 .star:before {
    border-bottom: 80px solid red;
    border-left: 30px solid transparent;
@@ -50,7 +48,6 @@
    content: '';
    transform: rotate(-35deg);
 }
-
 .star:after {
    position: absolute;
    display: block;
@@ -64,4 +61,24 @@
    border-left: 100px solid transparent;
    transform: rotate(-70deg);
    content: '';
+}
+
+.heart { 
+  position: relative;
+}
+.heart:before, .heart:after {
+  position: absolute;
+  content: "";
+  left: 70px; top: 0;
+  width: 70px;
+  height: 115px;
+  background: red;
+  border-radius: 50px 50px 0 0;
+  transform: rotate(-45deg);
+  transform-origin: 0 100%;
+}
+.heart:after { 
+  left: 0; 
+  transform: rotate(45deg);
+  transform-origin: 100% 100%;
 }
